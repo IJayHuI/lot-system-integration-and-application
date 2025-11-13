@@ -1,5 +1,7 @@
 <script setup>
-  import { ref } from 'vue'
+  import LsiaaGroup from '@/storages/LsiaaGroup.json'
+  import LsiaaGroupPerformance from '@/storages/LsiaaGroupPerformance.json'
+  import LsiaaStudent from '@/storages/LsiaaStudent.json'
   import LsiaaClassStructure from '@/storages/LsiaaClassStructure.json'
 
   import { ref } from 'vue'
@@ -23,7 +25,23 @@
     missionData.value.key = key
   }
   const handleUpdateExpandedKeys = (key) => {
-    mainData.value.projectInfo = LsiaaClassStructure.find((project) => project.key === key[0]) || null
+    const project = LsiaaClassStructure.find((project) => project.key === key[0]) || null
+    mainData.value.projectInfo = project
+    if (project) {
+      const projectPerformance = LsiaaGroupPerformance.find((project) => project.projectId === key[0]) || null
+      const groupPerformance = projectPerformance.groupPerformances.map((group) => {
+        const groupInfo = LsiaaGroup.find((g) => g.id === group.groupId)
+        const groupMembers = LsiaaStudent.filter((student) => student.groupId === groupInfo.id)
+        return {
+          score: group.score,
+          name: groupInfo.name,
+          groupMembers: groupMembers,
+          id: groupInfo.id
+        }
+      })
+      groupPerformanceData.value = groupPerformance
+      console.log(groupPerformance)
+    }
   }
 </script>
 <template>
