@@ -1,0 +1,122 @@
+[
+  {
+    "projectId": "project-1",
+    "key": "project-1",
+    "groupPerformances": [
+      {
+        "groupId": "1",
+        "score": 100
+      },
+      {
+        "groupId": "2",
+        "score": 100
+      },
+      {
+        "groupId": "3",
+        "score": 100
+      },
+      {
+        "groupId": "4",
+        "score": 100
+      },
+      {
+        "groupId": "5",
+        "score": 100
+      },
+      {
+        "groupId": "6",
+        "score": 100
+      }
+    ]
+  },
+  {
+    "projectId": "project-2",
+    "key": "project-2",
+    "groupPerformances": [
+      {
+        "groupId": "1",
+        "score": 100
+      },
+      {
+        "groupId": "2",
+        "score": 100
+      },
+      {
+        "groupId": "3",
+        "score": 100
+      },
+      {
+        "groupId": "4",
+        "score": 100
+      },
+      {
+        "groupId": "5",
+        "score": 100
+      },
+      {
+        "groupId": "6",
+        "score": 100
+      }
+    ]
+  },
+  {
+    "projectId": "project-3",
+    "key": "project-3",
+    "groupPerformances": [
+      {
+        "groupId": "1",
+        "score": 100
+      },
+      {
+        "groupId": "2",
+        "score": 100
+      },
+      {
+        "groupId": "3",
+        "score": 100
+      },
+      {
+        "groupId": "4",
+        "score": 100
+      },
+      {
+        "groupId": "5",
+        "score": 100
+      },
+      {
+        "groupId": "6",
+        "score": 100
+      }
+    ]
+  },
+  {
+    "projectId": "project-4",
+    "key": "project-4",
+    "groupPerformances": [
+      {
+        "groupId": "1",
+        "score": 100
+      },
+      {
+        "groupId": "2",
+        "score": 100
+      },
+      {
+        "groupId": "3",
+        "score": 100
+      },
+      {
+        "groupId": "4",
+        "score": 100
+      },
+      {
+        "groupId": "5",
+        "score": 100
+      },
+      {
+        "groupId": "6",
+        "score": 100
+      }
+    ]
+  }
+]
