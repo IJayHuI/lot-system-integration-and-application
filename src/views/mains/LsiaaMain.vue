@@ -5,6 +5,7 @@
   import LsiaaMenu from '@/components/LsiaaMenu.vue'
   import LsiaaGroupPerformance from '@/components/LsiaaGroupPerformance.vue'
   import LsiaaMissionInfo from '@/components/LsiaaMissionInfo.vue'
+  import LsiaaProgress from '@/components/LsiaaProgress.vue'
   const themeVars = useThemeVars()
 </script>
 <template>
@@ -14,6 +15,7 @@
         <n-layout-sider><lsiaa-menu /></n-layout-sider>
         <n-layout-content v-if="mainData.projectInfo">
           <n-layout-header class="h-16 flex items-center text-2xl pl-2 font-bold">{{ mainData.projectInfo.fullName }}</n-layout-header>
+          <lsiaa-progress />
           <n-tabs pane-class="flex flex-col gap-2 !pl-2 !pr-2" animated justify-content="space-evenly">
             <n-tab-pane name="group-performance" tab="小组完成情况"><lsiaa-group-performance /></n-tab-pane>
             <n-tab-pane name="mission-info" tab="任务详情"><lsiaa-mission-info /></n-tab-pane>
