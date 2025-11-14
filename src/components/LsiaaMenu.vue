@@ -50,7 +50,7 @@
 </script>
 <template>
   <div class="p-2">
-    <img class="rounded-lg" src="/course.png" alt="课程图片" />
+    <img class="rounded-lg" src="/course.jpg" alt="课程图片" />
     <p class="text-xl font-bold">物联网系统集成与应用</p>
   </div>
   <n-menu accordion :options="menuOptions" @update:value="handleClick" @update:expanded-keys="handleUpdateExpandedKeys" />
