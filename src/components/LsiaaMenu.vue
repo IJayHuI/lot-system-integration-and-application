@@ -5,7 +5,7 @@
   import LsiaaClassStructure from '@/storages/LsiaaClassStructure.json'
 
   import { ref } from 'vue'
-  import { mainData, groupPerformanceData, missionData } from '../storages/LsiaaViewData'
+  import { mainData, groupPerformanceData, missionData, progressData } from '@/storages/LsiaaViewData'
 
   const menuOptions = ref(
     LsiaaClassStructure.map((project) => {
@@ -23,27 +23,35 @@
   )
   const handleClick = (key) => {
     missionData.value.key = key
+    progressData.value.current = 4
+    const groupPerformance = LsiaaGroupPerformance.find((performance) => performance.key === key)
+    if (groupPerformance) {
+      groupPerformanceData.value.map((group) => {
+        group.score = groupPerformance.performance.find((g) => g.groupId === group.id).score
+      })
+    }
   }
   const handleUpdateExpandedKeys = (key) => {
     const project = LsiaaClassStructure.find((project) => project.key === key[0]) || null
     mainData.value.projectInfo = project
     if (project) {
-      const projectPerformance = LsiaaGroupPerformance.find((project) => project.projectId === key[0]) || null
-      const groupPerformance = projectPerformance.groupPerformances.map((group) => {
-        const groupInfo = LsiaaGroup.find((g) => g.id === group.groupId)
-        const groupMembers = LsiaaStudent.filter((student) => student.groupId === groupInfo.id)
+      const group = LsiaaGroup.map((group) => {
+        const groupInfo = LsiaaGroup.find((g) => g.id === group.id)
+        const groupMembers = LsiaaStudent.filter((student) => student.groupId === group.id)
         return {
-          score: group.score,
           name: groupInfo.name,
-          groupMembers: groupMembers,
-          id: groupInfo.id
+          id: groupInfo.id,
+          groupMembers: groupMembers
         }
       })
-      groupPerformanceData.value = groupPerformance
-      console.log(groupPerformance)
+      groupPerformanceData.value = group
     }
   }
 </script>
 <template>
+  <div class="p-2">
+    <img class="rounded-lg" src="/course.png" alt="课程图片" />
+    <p class="text-xl font-bold">物联网系统集成与应用</p>
+  </div>
   <n-menu accordion :options="menuOptions" @update:value="handleClick" @update:expanded-keys="handleUpdateExpandedKeys" />
 </template>
