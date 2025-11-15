@@ -73,4 +73,7 @@ const naive = create({
     NSplit
   ]
 })
-createApp(App).use(naive).mount('#app')
+
+import router from '@/routes'
+
+createApp(App).use(router).use(naive).mount('#app')

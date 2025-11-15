@@ -2,7 +2,7 @@
   import { progressData } from '@/storages/LsiaaViewData'
 </script>
 <template>
-  <n-steps :current="progressData.current" class="!p-2">
+  <n-steps :current="progressData.current">
     <n-step title="萌芽预练" />
     <n-step title="新梢引练" />
     <n-step title="生长教练" />

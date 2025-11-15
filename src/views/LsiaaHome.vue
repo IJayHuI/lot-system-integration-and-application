@@ -10,7 +10,7 @@
   <n-space vertical justify="center" align="center" class="h-40 sticky top-0 z-0">
     <n-space justify="center" align="center">
       <img src="/vite.svg" alt="logo" class="w-12 h-12" />
-      <span class="text-3xl font-bold">智评教系统</span>
+      <span class="text-3xl font-bold">智慧评教系统</span>
     </n-space>
     <span>系统版本：{{ appVersion }}</span>
     <n-button round @click="active = true" class="!absolute right-2 top-2 !h-auto" secondary>

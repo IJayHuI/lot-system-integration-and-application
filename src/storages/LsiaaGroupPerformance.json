@@ -1,90 +1,767 @@
 [
   {
-    "key": "mission-1-1",
-    "performance": [
-      { "groupId": "1", "score": 100 },
-      { "groupId": "2", "score": 100 },
-      { "groupId": "3", "score": 50 },
-      { "groupId": "4", "score": 100 },
-      { "groupId": "5", "score": 100 },
-      { "groupId": "6", "score": 100 }
-    ]
-  },
-  {
-    "key": "mission-1-2",
-    "performance": [
-      { "groupId": "1", "score": 100 },
-      { "groupId": "2", "score": 70 },
-      { "groupId": "3", "score": 100 },
-      { "groupId": "4", "score": 100 },
-      { "groupId": "5", "score": 100 },
-      { "groupId": "6", "score": 100 }
-    ]
-  },
-  {
-    "key": "mission-1-3",
-    "performance": [
-      { "groupId": "1", "score": 50 },
-      { "groupId": "2", "score": 100 },
-      { "groupId": "3", "score": 100 },
-      { "groupId": "4", "score": 100 },
-      { "groupId": "5", "score": 50 },
-      { "groupId": "6", "score": 100 }
-    ]
-  },
-  {
-    "key": "mission-1-4",
-    "performance": [
-      { "groupId": "1", "score": 100 },
-      { "groupId": "2", "score": 100 },
-      { "groupId": "3", "score": 100 },
-      { "groupId": "4", "score": 100 },
-      { "groupId": "5", "score": 70 },
-      { "groupId": "6", "score": 100 }
-    ]
-  },
-  {
-    "key": "mission-1-5",
-    "performance": [
-      { "groupId": "1", "score": 100 },
-      { "groupId": "2", "score": 100 },
-      { "groupId": "3", "score": 100 },
-      { "groupId": "4", "score": 100 },
-      { "groupId": "5", "score": 70 },
-      { "groupId": "6", "score": 70 }
-    ]
-  },
-  {
-    "key": "mission-1-6",
-    "performance": [
-      { "groupId": "1", "score": 100 },
-      { "groupId": "2", "score": 100 },
-      { "groupId": "3", "score": 100 },
-      { "groupId": "4", "score": 100 },
-      { "groupId": "5", "score": 100 },
-      { "groupId": "6", "score": 100 }
-    ]
-  },
-  {
-    "key": "mission-1-7",
-    "performance": [
-      { "groupId": "1", "score": 100 },
-      { "groupId": "2", "score": 100 },
-      { "groupId": "3", "score": 100 },
-      { "groupId": "4", "score": 100 },
-      { "groupId": "5", "score": 100 },
-      { "groupId": "6", "score": 100 }
-    ]
-  },
-  {
-    "key": "mission-1-8",
-    "performance": [
-      { "groupId": "1", "score": 100 },
-      { "groupId": "2", "score": 100 },
-      { "groupId": "3", "score": 100 },
-      { "groupId": "4", "score": 100 },
-      { "groupId": "5", "score": 100 },
-      { "groupId": "6", "score": 100 }
+    "projectId": "project-4",
+    "missions": [
+      {
+        "missionId": "mission-1",
+        "performance": [
+          { "groupId": "1", "score": 100 },
+          { "groupId": "2", "score": 100 },
+          { "groupId": "3", "score": 100 },
+          { "groupId": "4", "score": 100 },
+          { "groupId": "5", "score": 100 },
+          { "groupId": "6", "score": 100 }
+        ]
+      },
+      {
+        "missionId": "mission-2",
+        "performance": [
+          {
+            "groupId": "1",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "2",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "3",
+            "score": 50,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "4",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "5",
+            "score": 50,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "6",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          }
+        ]
+      },
+      {
+        "missionId": "mission-3",
+        "performance": [
+          {
+            "groupId": "1",
+            "score": 70,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "2",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "3",
+            "score": 70,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "4",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "5",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "6",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          }
+        ]
+      },
+      {
+        "missionId": "mission-4",
+        "performance": [
+          {
+            "groupId": "1",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 60,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "2",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "3",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "4",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "5",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "6",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          }
+        ]
+      },
+      {
+        "missionId": "mission-5",
+        "performance": [
+          {
+            "groupId": "1",
+            "score": 50,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "2",
+            "score": 50,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "3",
+            "score": 50,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "4",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "5",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "6",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          }
+        ]
+      },
+      {
+        "missionId": "mission-6",
+        "performance": [
+          {
+            "groupId": "1",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "2",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "3",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "4",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "5",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "6",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          }
+        ]
+      },
+      {
+        "missionId": "mission-7",
+        "performance": [
+          {
+            "groupId": "1",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "2",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "3",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "4",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "5",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "6",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          }
+        ]
+      },
+      {
+        "missionId": "mission-8",
+        "performance": [
+          {
+            "groupId": "1",
+            "score": 70,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "2",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "3",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "4",
+            "score": 100,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "5",
+            "score": 50,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          },
+          {
+            "groupId": "6",
+            "score": 50,
+            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
+            "AI": {
+              "score": 40,
+              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
+            },
+            "student": {
+              "score": 100,
+              "text": ""
+            },
+            "teacher": {
+              "score": 0,
+              "text": ""
+            }
+          }
+        ]
+      }
     ]
   }
 ]
