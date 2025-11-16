@@ -37,21 +37,19 @@
         </n-card>
       </template>
       <template #2>
-        <n-card title="智评结果" content-class="flex flex-row gap-4">
-          <div>
-            <n-progress type="circle" :percentage="missionData.mission2To8.AI.score" :status="getType(missionData.mission2To8.AI.score)" />
-          </div>
-          <p class="text-base">{{ missionData.mission2To8.AI.text }}</p>
+        <n-card title="综合评分" content-class="flex flex-col gap-2"> </n-card>
+        <n-card title="智评结果" content-class="flex flex-col gap-2">
+          <p v-for="(item, index) in missionData.mission2To8.AI" class="text-base">{{ index + 1 }}、{{ item }}</p>
         </n-card>
         <n-card title="学生互评">
-          <n-progress type="circle" :percentage="missionData.mission2To8.student.score" :status="getType(missionData.mission2To8.student.score)" />
+          <p v-for="(item, index) in missionData.mission2To8.student" class="text-base">{{ index + 1 }}、{{ item }}</p>
         </n-card>
-        <n-card title="教师评价" content-class="w-full flex flex-row gap-4">
-          <n-progress type="circle" :percentage="missionData.mission2To8.teacher.score" :status="getType(missionData.mission2To8.teacher.score)" />
-          <div class="flex-1 flex flex-col gap-2">
-            <n-input-number v-model:value="missionData.mission2To8.teacher.score" clearable placeholder="请输入分数" />
-            <n-input v-model:value="missionData.mission2To8.teacher.text" type="text" placeholder="请输入评语" />
-          </div>
+        <n-card title="教师评价" content-class="w-full flex flex-col gap-4">
+          <n-progress type="line" :show-indicator="false" :percentage="missionData.mission2To8.teacher.score" :status="getType(missionData.mission2To8.teacher.score)" />
+          <n-input-number v-model:value="missionData.mission2To8.teacher.score" :max="100" :min="0" clearable placeholder="请输入分数">
+            <template #suffix>分</template>
+          </n-input-number>
+          <n-input v-model:value="missionData.mission2To8.teacher.text" type="text" placeholder="请输入评语" />
         </n-card>
       </template>
     </n-split>

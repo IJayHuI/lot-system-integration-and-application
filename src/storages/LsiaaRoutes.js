@@ -1,24 +1,27 @@
 export default [
   {
-    fullName: '项目一：西瓜催芽（单项采集） 西瓜催芽环境监测系统集成与应用',
+    fullName: '项目一：西瓜催芽环境监测系统集成与应用',
     path: '/project-1',
     component: () => import('@/views/mains/LsiaaGroup.vue'),
-    label: '项目一：西瓜催芽'
+    label: '项目一：西瓜催芽',
+    children: []
   },
   {
-    fullName: '项目二：生菜育苗（双向控制） 生菜物联网育苗系统集成与应用',
+    fullName: '项目二：生菜物联网育苗系统集成与应用',
     path: '/project-2',
     component: () => import('@/views/mains/LsiaaGroup.vue'),
-    label: '项目二：生菜育苗'
+    label: '项目二：生菜育苗',
+    children: []
   },
   {
-    fullName: '项目三：柑橘保果（多端协同） 柑桔物联网保果系统集成与应用',
+    fullName: '项目三：柑桔物联网保果系统集成与应用',
     path: '/project-3',
     component: () => import('@/views/mains/LsiaaGroup.vue'),
-    label: '项目三：柑橘保果'
+    label: '项目三：柑橘保果',
+    children: []
   },
   {
-    fullName: '项目四：茶树养护（智能决策） 茶树物联网养护系统构建与应用',
+    fullName: '项目四：茶树物联网养护系统构建与应用',
     path: '/project-4/',
     component: () => import('@/views/mains/LsiaaGroup.vue'),
     label: '项目四：茶树养护',

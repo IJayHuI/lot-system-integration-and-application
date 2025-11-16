@@ -20,14 +20,8 @@
             "groupId": "1",
             "score": 100,
             "studentFiles": ["/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -37,14 +31,8 @@
             "groupId": "2",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -52,16 +40,10 @@
           },
           {
             "groupId": "3",
-            "score": 50,
+            "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -71,14 +53,8 @@
             "groupId": "4",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -88,14 +64,8 @@
             "groupId": "5",
             "score": 50,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -105,14 +75,8 @@
             "groupId": "6",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -125,16 +89,10 @@
         "performance": [
           {
             "groupId": "1",
-            "score": 70,
+            "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -144,14 +102,8 @@
             "groupId": "2",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -159,16 +111,10 @@
           },
           {
             "groupId": "3",
-            "score": 70,
+            "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -178,14 +124,8 @@
             "groupId": "4",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -193,16 +133,10 @@
           },
           {
             "groupId": "5",
-            "score": 100,
+            "score": 50,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -212,14 +146,8 @@
             "groupId": "6",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -234,14 +162,8 @@
             "groupId": "1",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 60,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -251,14 +173,8 @@
             "groupId": "2",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -268,14 +184,8 @@
             "groupId": "3",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -285,14 +195,8 @@
             "groupId": "4",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -300,16 +204,10 @@
           },
           {
             "groupId": "5",
-            "score": 100,
+            "score": 50,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -319,14 +217,8 @@
             "groupId": "6",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -339,16 +231,10 @@
         "performance": [
           {
             "groupId": "1",
-            "score": 50,
+            "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -356,16 +242,10 @@
           },
           {
             "groupId": "2",
-            "score": 50,
+            "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -373,16 +253,10 @@
           },
           {
             "groupId": "3",
-            "score": 50,
+            "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -392,14 +266,8 @@
             "groupId": "4",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -407,16 +275,10 @@
           },
           {
             "groupId": "5",
-            "score": 100,
+            "score": 50,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -426,14 +288,8 @@
             "groupId": "6",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -448,14 +304,8 @@
             "groupId": "1",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -465,14 +315,8 @@
             "groupId": "2",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -482,14 +326,8 @@
             "groupId": "3",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -499,14 +337,8 @@
             "groupId": "4",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -514,16 +346,10 @@
           },
           {
             "groupId": "5",
-            "score": 100,
+            "score": 50,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -533,14 +359,8 @@
             "groupId": "6",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -555,14 +375,8 @@
             "groupId": "1",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -572,14 +386,8 @@
             "groupId": "2",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -589,14 +397,8 @@
             "groupId": "3",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -606,14 +408,8 @@
             "groupId": "4",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -621,16 +417,10 @@
           },
           {
             "groupId": "5",
-            "score": 100,
+            "score": 50,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -640,14 +430,8 @@
             "groupId": "6",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -660,16 +444,10 @@
         "performance": [
           {
             "groupId": "1",
-            "score": 70,
+            "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -679,14 +457,8 @@
             "groupId": "2",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -696,14 +468,8 @@
             "groupId": "3",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -713,14 +479,8 @@
             "groupId": "4",
             "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -730,14 +490,8 @@
             "groupId": "5",
             "score": 50,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -745,16 +499,10 @@
           },
           {
             "groupId": "6",
-            "score": 50,
+            "score": 100,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": {
-              "score": 40,
-              "text": "温湿度、土壤设备选择存在异常,网关设备选择存在异常,性价比因素存在异常"
-            },
-            "student": {
-              "score": 100,
-              "text": ""
-            },
+            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
+            "student": ["传感器设备重复", "PLC设备不适用"],
             "teacher": {
               "score": 0,
               "text": ""

@@ -19,14 +19,8 @@ export const missionData = ref({
     score: 0,
     groupMembers: [],
     studentFiles: [],
-    AI: {
-      score: 0,
-      text: ''
-    },
-    student: {
-      score: 0,
-      text: ''
-    },
+    AI: [],
+    student: [],
     teacher: {
       score: 0,
       text: ''
@@ -36,7 +30,7 @@ export const missionData = ref({
 
 export const accountData = ref({
   username: 'sualan',
-  nickName: '苏阿兰',
+  nickName: '教师',
   avatar: '/avatars/avatar31.jpg'
 })
 
