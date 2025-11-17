@@ -5,6 +5,11 @@
   const overTheme = {
     common: {
       borderRadius: '0.5rem'
+    },
+    Tag: {
+      fontSizeLarge: '16px',
+      heightLarge: '40px',
+      borderRadius: '0.5rem'
     }
   }
 </script>

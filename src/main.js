@@ -5,6 +5,8 @@ import App from './App.vue'
 import 'vfonts/Lato.css'
 import {
   create,
+  NGradientText,
+  NNumberAnimation,
   NInputNumber,
   NProgress,
   NImageGroup,
@@ -40,6 +42,8 @@ import {
 
 const naive = create({
   components: [
+    NGradientText,
+    NNumberAnimation,
     NInputNumber,
     NProgress,
     NImageGroup,

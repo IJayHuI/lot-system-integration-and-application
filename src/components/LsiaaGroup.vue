@@ -12,8 +12,8 @@
   const router = useRouter()
 
   const getType = (score) => {
-    if (score >= 80) return 'success'
-    if (score >= 60) return 'warning'
+    if (score >= 90) return 'success'
+    if (score >= 70) return 'warning'
     return 'error'
   }
 
@@ -98,9 +98,9 @@
 </script>
 <template>
   <n-button secondary v-for="group in groupPerformanceData" :type="group.performance?.score ? getType(group.performance.score) : 'default'" class="*:w-full min-h-20" @click="handleClickGroup(group)">
-    <div class="w-full flex flex-row items-center justify-between">
-      <p class="text-xl">{{ group.name }}</p>
-      <div class="flex flex-row gap-2">
+    <div class="w-full flex flex-row items-center gap-3">
+      <p class="text-2xl">{{ group.name }}</p>
+      <div class="flex flex-row gap-3">
         <n-tag size="large" v-for="member in group.groupMembers" round :bordered="false" :type="group.performance?.score ? getType(group.performance.score) : 'default'">
           {{ member.name }}
           <template #avatar>

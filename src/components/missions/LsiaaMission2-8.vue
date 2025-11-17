@@ -4,8 +4,8 @@
 
   const showAnswer = ref(false)
   const getType = (score) => {
-    if (score >= 80) return 'success'
-    if (score >= 60) return 'warning'
+    if (score >= 90) return 'success'
+    if (score >= 70) return 'warning'
     return 'error'
   }
 </script>
@@ -23,7 +23,7 @@
       </div>
     </div>
   </n-button>
-  <n-split :min="0.3" :max="0.7" :default-size="0.5" pane1-class="pt-0 pr-2 pb-0 flex flex-col gap-2" pane2-class="pt-0 pb-0 pl-2 flex flex-col gap-2" direction="horizontal">
+  <n-split :min="0.3" :max="0.7" :default-size="0.7" pane1-class="pt-0 pr-2 pb-0 flex flex-col gap-2" pane2-class="pt-0 pb-0 pl-2 flex flex-col gap-2" direction="horizontal">
     <template #1>
       <n-card title="学生作品">
         <div class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-2">
@@ -42,14 +42,20 @@
       </n-card>
     </template>
     <template #2>
-      <n-card title="综合评分" content-class="flex flex-col gap-2"> </n-card>
+      <n-card title="综合评分" content-class="flex flex-col gap-2 text-center" header-class="!text-3xl">
+        <template #header-extra>
+          <n-gradient-text :type="getType(missionData.mission2To8.score)" :size="32">
+            <n-number-animation :from="0" :to="missionData.mission2To8.score" />
+          </n-gradient-text>
+        </template>
+      </n-card>
       <n-card title="智评结果" content-class="flex flex-col gap-2">
-        <p v-for="(item, index) in missionData.mission2To8.AI" class="text-base">{{ index + 1 }}、{{ item }}</p>
+        <n-tag size="large" type="error" :bordered="false" v-for="item in missionData.mission2To8.AI">{{ item }}</n-tag>
       </n-card>
-      <n-card title="学生互评">
-        <p v-for="(item, index) in missionData.mission2To8.student" class="text-base">{{ index + 1 }}、{{ item }}</p>
+      <n-card title="学生互评" content-class="flex flex-col gap-2">
+        <n-tag size="large" :bordered="false" v-for="item in missionData.mission2To8.student">{{ item }}</n-tag>
       </n-card>
-      <n-card title="教师评价" content-class="w-full flex flex-col gap-4">
+      <n-card title="教师评价" content-class="w-full flex flex-col gap-2">
         <n-input-number size="large" v-model:value="missionData.mission2To8.teacher.score" :max="100" :min="0" clearable placeholder="请输入分数">
           <template #suffix>分</template>
         </n-input-number>
