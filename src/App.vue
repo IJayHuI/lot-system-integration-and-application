@@ -1,6 +1,6 @@
 <script setup>
   import { darkTheme, zhCN, dateZhCN, NLoadingBarProvider, NDialogProvider, NConfigProvider, NGlobalStyle, NNotificationProvider, useOsTheme } from 'naive-ui'
-  import LsiaaMain from '@/views/mains/LsiaaMain.vue'
+  import LsiaaMain from '@/views/LsiaaMain.vue'
   import LsiaaHome from '@/views/LsiaaHome.vue'
   const overTheme = {
     common: {

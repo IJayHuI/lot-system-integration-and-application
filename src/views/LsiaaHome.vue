@@ -3,6 +3,8 @@
   import { accountData } from '@/storages/LsiaaViewData'
   import { ArrowForwardIosRound } from '@vicons/material'
 
+  import LsiaaBeian from '@/components/LsiaaBeian.vue'
+
   const appVersion = __APP_VERSION__
   const active = ref(false)
 </script>
@@ -12,6 +14,7 @@
       <img src="/vite.svg" alt="logo" class="w-12 h-12" />
       <span class="text-3xl font-bold">智慧评教系统</span>
     </n-space>
+    <lsiaa-beian />
     <span>系统版本：{{ appVersion }}</span>
     <n-button round @click="active = true" class="!absolute right-2 top-2 !h-auto" secondary>
       <div class="flex flex-row gap-2 justify-center items-center pt-2 pb-2">
@@ -37,7 +40,7 @@
         <template #icon><ArrowForwardIosRound /></template>
       </n-button>
       <template #footer>
-        <n-button type="error" secondary>退出登录</n-button>
+        <n-button size="large" type="error" secondary>退出登录</n-button>
       </template>
     </n-drawer-content>
   </n-drawer>

@@ -1,8 +1,8 @@
 <script setup>
-  import { missionData, mainData } from '@/storages/LsiaaViewData'
+  import { missionData } from '@/storages/LsiaaViewData'
+  import { ref } from 'vue'
 
-  import LsiaaProgress from '@/components/LsiaaProgress.vue'
-
+  const showAnswer = ref(false)
   const getType = (score) => {
     if (score >= 80) return 'success'
     if (score >= 60) return 'warning'
@@ -10,48 +10,57 @@
   }
 </script>
 <template>
-  <n-layout-content content-class="flex flex-col gap-2 p-2">
-    <n-layout-header class="h-16 flex items-center text-2xl font-bold !bg-transparent">{{ mainData.projectInfo.fullName }}</n-layout-header>
-    <lsiaa-progress />
-    <n-button secondary :type="missionData.mission2To8.score ? getType(missionData.mission2To8.score) : 'default'" class="*:w-full min-h-20">
-      <div class="w-full flex flex-row items-center justify-between">
-        <p class="text-xl">{{ missionData.mission2To8.groupName }}</p>
-        <div class="flex flex-row gap-2">
-          <n-tag size="large" v-for="member in missionData.mission2To8.groupMembers" round :bordered="false" :type="missionData.mission2To8.score ? getType(missionData.mission2To8.score) : 'default'">
-            {{ member.name }}
-            <template #avatar>
-              <n-avatar :src="member.avatar" />
-            </template>
-          </n-tag>
-        </div>
+  <n-button secondary :type="missionData.mission2To8.score ? getType(missionData.mission2To8.score) : 'default'" class="*:w-full min-h-20">
+    <div class="w-full flex flex-row items-center justify-between">
+      <p class="text-xl">{{ missionData.mission2To8.groupName }}</p>
+      <div class="flex flex-row gap-2">
+        <n-tag size="large" v-for="member in missionData.mission2To8.groupMembers" round :bordered="false" :type="missionData.mission2To8.score ? getType(missionData.mission2To8.score) : 'default'">
+          {{ member.name }}
+          <template #avatar>
+            <n-avatar :src="member.avatar" />
+          </template>
+        </n-tag>
       </div>
-    </n-button>
-    <n-split :min="0.3" :max="0.7" :default-size="0.5" pane1-class="pt-0 pr-2 pb-0 flex flex-col gap-2" pane2-class="pt-0 pb-0 pl-2 flex flex-col gap-2" direction="horizontal">
-      <template #1>
-        <n-card title="学生作品">
-          <div class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-2">
-            <n-image-group>
-              <n-image class="rounded-lg" object-fit="cover" v-for="image in missionData.mission2To8.studentFiles" :src="image" />
-            </n-image-group>
-          </div>
-        </n-card>
-      </template>
-      <template #2>
-        <n-card title="综合评分" content-class="flex flex-col gap-2"> </n-card>
-        <n-card title="智评结果" content-class="flex flex-col gap-2">
-          <p v-for="(item, index) in missionData.mission2To8.AI" class="text-base">{{ index + 1 }}、{{ item }}</p>
-        </n-card>
-        <n-card title="学生互评">
-          <p v-for="(item, index) in missionData.mission2To8.student" class="text-base">{{ index + 1 }}、{{ item }}</p>
-        </n-card>
-        <n-card title="教师评价" content-class="w-full flex flex-col gap-4">
-          <n-progress type="line" :show-indicator="false" :percentage="missionData.mission2To8.teacher.score" :status="getType(missionData.mission2To8.teacher.score)" />
-          <n-input-number v-model:value="missionData.mission2To8.teacher.score" :max="100" :min="0" clearable placeholder="请输入分数">
-            <template #suffix>分</template>
-          </n-input-number>
-          <n-input v-model:value="missionData.mission2To8.teacher.text" type="text" placeholder="请输入评语" />
-        </n-card>
-      </template>
-    </n-split>
-  </n-layout-content>
+    </div>
+  </n-button>
+  <n-split :min="0.3" :max="0.7" :default-size="0.5" pane1-class="pt-0 pr-2 pb-0 flex flex-col gap-2" pane2-class="pt-0 pb-0 pl-2 flex flex-col gap-2" direction="horizontal">
+    <template #1>
+      <n-card title="学生作品">
+        <div class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-2">
+          <n-image-group>
+            <n-image class="rounded-lg" object-fit="cover" v-for="image in missionData.mission2To8.studentFiles" :src="image" />
+          </n-image-group>
+        </div>
+      </n-card>
+      <n-button type="success" size="large" secondary v-if="missionData.mission2To8.answerFiles && !showAnswer" @click="showAnswer = true">参考答案</n-button>
+      <n-card title="参考答案" v-if="missionData.mission2To8.answerFiles && showAnswer">
+        <div class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-2">
+          <n-image-group>
+            <n-image class="rounded-lg" object-fit="cover" v-for="image in missionData.mission2To8.answerFiles" :src="image" />
+          </n-image-group>
+        </div>
+      </n-card>
+    </template>
+    <template #2>
+      <n-card title="综合评分" content-class="flex flex-col gap-2"> </n-card>
+      <n-card title="智评结果" content-class="flex flex-col gap-2">
+        <p v-for="(item, index) in missionData.mission2To8.AI" class="text-base">{{ index + 1 }}、{{ item }}</p>
+      </n-card>
+      <n-card title="学生互评">
+        <p v-for="(item, index) in missionData.mission2To8.student" class="text-base">{{ index + 1 }}、{{ item }}</p>
+      </n-card>
+      <n-card title="教师评价" content-class="w-full flex flex-col gap-4">
+        <n-input-number size="large" v-model:value="missionData.mission2To8.teacher.score" :max="100" :min="0" clearable placeholder="请输入分数">
+          <template #suffix>分</template>
+        </n-input-number>
+        <n-progress
+          v-if="missionData.mission2To8.teacher.score || missionData.mission2To8.teacher.score > 0"
+          type="line"
+          :show-indicator="false"
+          :percentage="missionData.mission2To8.teacher.score"
+          :status="getType(missionData.mission2To8.teacher.score)" />
+        <n-input size="large" v-model:value="missionData.mission2To8.teacher.text" type="text" placeholder="请输入评语" />
+      </n-card>
+    </template>
+  </n-split>
 </template>
