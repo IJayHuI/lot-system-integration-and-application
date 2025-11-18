@@ -97,10 +97,10 @@
   )
 </script>
 <template>
-  <n-button secondary v-for="group in groupPerformanceData" :type="group.performance?.score ? getType(group.performance.score) : 'default'" class="*:w-full min-h-20" @click="handleClickGroup(group)">
-    <div class="w-full flex flex-row items-center gap-3">
-      <p class="text-2xl">{{ group.name }}</p>
-      <div class="flex flex-row gap-3">
+  <n-button secondary v-for="group in groupPerformanceData" :type="group.performance?.score ? getType(group.performance.score) : 'default'" class="*:w-full min-h-20 !pl-50 !pr-50" @click="handleClickGroup(group)">
+    <div class="w-full flex flex-row items-center gap-2 justify-between">
+      <p class="text-2xl font-bold">{{ group.name }}</p>
+      <div class="flex flex-row gap-2">
         <n-tag size="large" v-for="member in group.groupMembers" round :bordered="false" :type="group.performance?.score ? getType(group.performance.score) : 'default'">
           {{ member.name }}
           <template #avatar>
