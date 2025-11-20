@@ -62,7 +62,7 @@
           },
           {
             "groupId": "5",
-            "score": 75,
+            "score": 68,
             "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
             "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
             "student": ["传感器设备重复", "PLC设备不适用"],
@@ -92,7 +92,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -103,7 +103,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -114,7 +114,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -125,7 +125,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -133,10 +133,10 @@
           },
           {
             "groupId": "5",
-            "score": 75,
+            "score": 68,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -147,7 +147,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -163,7 +163,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -174,7 +174,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -185,7 +185,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -196,7 +196,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -204,10 +204,10 @@
           },
           {
             "groupId": "5",
-            "score": 75,
+            "score": 68,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -218,7 +218,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -234,7 +234,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -245,7 +245,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -256,7 +256,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -267,7 +267,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -275,10 +275,10 @@
           },
           {
             "groupId": "5",
-            "score": 75,
+            "score": 68,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -289,7 +289,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -305,7 +305,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -316,7 +316,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -327,7 +327,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -338,7 +338,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -346,10 +346,10 @@
           },
           {
             "groupId": "5",
-            "score": 75,
+            "score": 68,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -360,7 +360,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -376,7 +376,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -387,7 +387,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -398,7 +398,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -409,7 +409,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -417,10 +417,10 @@
           },
           {
             "groupId": "5",
-            "score": 75,
+            "score": 68,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -431,7 +431,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -447,7 +447,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -458,7 +458,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -469,7 +469,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -480,7 +480,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -488,10 +488,10 @@
           },
           {
             "groupId": "5",
-            "score": 75,
+            "score": 68,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -502,7 +502,7 @@
             "score": 100,
             "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
             "AI": ["温度数值异常", "超出温湿度设备量程"],
-            "student": ["湿度数据不对"],
+            "student": ["温度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""

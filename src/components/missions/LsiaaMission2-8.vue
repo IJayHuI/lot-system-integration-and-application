@@ -24,7 +24,7 @@
   </n-button>
   <n-split :min="0.3" :max="0.7" :default-size="0.7" pane1-class="pt-0 pr-2 pb-0 flex flex-col gap-2" pane2-class="pt-0 pb-0 pl-2 flex flex-col gap-2" direction="horizontal">
     <template #1>
-      <n-card title="学生作品">
+      <n-card title="自练结果">
         <div class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-2">
           <n-image-group>
             <n-image class="rounded-lg" object-fit="cover" v-for="image in missionData.mission2To8.studentFiles" :src="image" />
