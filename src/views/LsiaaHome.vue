@@ -12,7 +12,7 @@
   <n-space vertical justify="center" align="center" class="h-40 sticky top-0 z-0">
     <n-space justify="center" align="center">
       <img src="/vite.svg" alt="logo" class="w-12 h-12" />
-      <span class="text-3xl font-bold">智慧评教系统</span>
+      <span class="text-3xl font-bold">物联网系统集成与应用课程智评系统</span>
     </n-space>
     <lsiaa-beian />
     <span>系统版本：{{ appVersion }}</span>

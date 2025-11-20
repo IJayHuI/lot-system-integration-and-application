@@ -24,8 +24,7 @@ export const missionData = ref({
     teacher: {
       score: 0,
       text: ''
-    },
-    answerFiles: null
+    }
   }
 })
 

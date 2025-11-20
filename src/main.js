@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import { createApp, computed, ref } from 'vue'
 import './style.css'
 import App from './App.vue'
 
@@ -76,6 +76,17 @@ const naive = create({
     NDrawerContent,
     NSplit
   ]
+})
+
+// 全局加载状态
+export const loading = ref({
+  status: computed(() => {
+    return loading.value.projectCount !== 0
+  }),
+  projectCount: 0,
+  delay() {
+    return Math.random() * (700 - 50) + 50
+  }
 })
 
 import router from '@/routes'

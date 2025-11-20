@@ -90,9 +90,9 @@
           {
             "groupId": "1",
             "score": 100,
-            "studentFiles": ["/missions/mission3/image1.jpg", "/missions/mission3/image2.jpg", "/missions/mission3/image3.jpg"],
-            "AI": ["设备安装位置有误", "线路标签粘贴位置有误", "线路凌乱"],
-            "student": ["标签粘贴有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -101,9 +101,9 @@
           {
             "groupId": "2",
             "score": 100,
-            "studentFiles": ["/missions/mission3/image1.jpg", "/missions/mission3/image2.jpg", "/missions/mission3/image3.jpg"],
-            "AI": ["设备安装位置有误", "线路标签粘贴位置有误", "线路凌乱"],
-            "student": ["标签粘贴有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -112,9 +112,9 @@
           {
             "groupId": "3",
             "score": 100,
-            "studentFiles": ["/missions/mission3/image1.jpg", "/missions/mission3/image2.jpg", "/missions/mission3/image3.jpg"],
-            "AI": ["设备安装位置有误", "线路标签粘贴位置有误", "线路凌乱"],
-            "student": ["标签粘贴有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -123,9 +123,9 @@
           {
             "groupId": "4",
             "score": 100,
-            "studentFiles": ["/missions/mission3/image1.jpg", "/missions/mission3/image2.jpg", "/missions/mission3/image3.jpg"],
-            "AI": ["设备安装位置有误", "线路标签粘贴位置有误", "线路凌乱"],
-            "student": ["标签粘贴有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -134,9 +134,9 @@
           {
             "groupId": "5",
             "score": 75,
-            "studentFiles": ["/missions/mission3/image1.jpg", "/missions/mission3/image2.jpg", "/missions/mission3/image3.jpg"],
-            "AI": ["设备安装位置有误", "线路标签粘贴位置有误", "线路凌乱"],
-            "student": ["标签粘贴有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -145,9 +145,9 @@
           {
             "groupId": "6",
             "score": 100,
-            "studentFiles": ["/missions/mission3/image1.jpg", "/missions/mission3/image2.jpg", "/missions/mission3/image3.jpg"],
-            "AI": ["设备安装位置有误", "线路标签粘贴位置有误", "线路凌乱"],
-            "student": ["标签粘贴有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -157,14 +157,13 @@
       },
       {
         "missionId": "mission-4",
-        "answerFiles": ["/missions/mission4/right/image1.jpg", "/missions/mission4/right/image2.jpg", "/missions/mission4/right/image3.jpg"],
         "performance": [
           {
             "groupId": "1",
             "score": 100,
-            "studentFiles": ["/missions/mission4/wrong/image1.jpg", "/missions/mission4/wrong/image2.jpg", "/missions/mission4/wrong/image3.jpg", "/missions/mission4/wrong/image4.jpg"],
-            "AI": ["无通信", "温湿度数据有误"],
-            "student": ["数据有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -173,9 +172,9 @@
           {
             "groupId": "2",
             "score": 100,
-            "studentFiles": ["/missions/mission4/wrong/image1.jpg", "/missions/mission4/wrong/image2.jpg", "/missions/mission4/wrong/image3.jpg", "/missions/mission4/wrong/image4.jpg"],
-            "AI": ["无通信", "温湿度数据有误"],
-            "student": ["数据有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -184,9 +183,9 @@
           {
             "groupId": "3",
             "score": 100,
-            "studentFiles": ["/missions/mission4/wrong/image1.jpg", "/missions/mission4/wrong/image2.jpg", "/missions/mission4/wrong/image3.jpg", "/missions/mission4/wrong/image4.jpg"],
-            "AI": ["无通信", "温湿度数据有误"],
-            "student": ["数据有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -195,9 +194,9 @@
           {
             "groupId": "4",
             "score": 100,
-            "studentFiles": ["/missions/mission4/wrong/image1.jpg", "/missions/mission4/wrong/image2.jpg", "/missions/mission4/wrong/image3.jpg", "/missions/mission4/wrong/image4.jpg"],
-            "AI": ["无通信", "温湿度数据有误"],
-            "student": ["数据有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -206,9 +205,9 @@
           {
             "groupId": "5",
             "score": 75,
-            "studentFiles": ["/missions/mission4/wrong/image1.jpg", "/missions/mission4/wrong/image2.jpg", "/missions/mission4/wrong/image3.jpg", "/missions/mission4/wrong/image4.jpg"],
-            "AI": ["无通信", "温湿度数据有误"],
-            "student": ["数据有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -217,9 +216,9 @@
           {
             "groupId": "6",
             "score": 100,
-            "studentFiles": ["/missions/mission4/wrong/image1.jpg", "/missions/mission4/wrong/image2.jpg", "/missions/mission4/wrong/image3.jpg", "/missions/mission4/wrong/image4.jpg"],
-            "AI": ["无通信", "温湿度数据有误"],
-            "student": ["数据有误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -229,14 +228,13 @@
       },
       {
         "missionId": "mission-5",
-        "answerFiles": ["/missions/mission5/right/image1.jpg"],
         "performance": [
           {
             "groupId": "1",
             "score": 100,
-            "studentFiles": ["/missions/mission5/wrong/image1.jpg", "/missions/mission5/wrong/image2.jpg"],
-            "AI": ["IP地址和端口号错误", "网关编号SN码错误", "数据点绑定错误"],
-            "student": ["配置错误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -245,9 +243,9 @@
           {
             "groupId": "2",
             "score": 100,
-            "studentFiles": ["/missions/mission5/wrong/image1.jpg", "/missions/mission5/wrong/image2.jpg"],
-            "AI": ["IP地址和端口号错误", "网关编号SN码错误", "数据点绑定错误"],
-            "student": ["配置错误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -256,9 +254,9 @@
           {
             "groupId": "3",
             "score": 100,
-            "studentFiles": ["/missions/mission5/wrong/image1.jpg", "/missions/mission5/wrong/image2.jpg"],
-            "AI": ["IP地址和端口号错误", "网关编号SN码错误", "数据点绑定错误"],
-            "student": ["配置错误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -267,9 +265,9 @@
           {
             "groupId": "4",
             "score": 100,
-            "studentFiles": ["/missions/mission5/wrong/image1.jpg", "/missions/mission5/wrong/image2.jpg"],
-            "AI": ["IP地址和端口号错误", "网关编号SN码错误", "数据点绑定错误"],
-            "student": ["配置错误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -278,9 +276,9 @@
           {
             "groupId": "5",
             "score": 75,
-            "studentFiles": ["/missions/mission5/wrong/image1.jpg", "/missions/mission5/wrong/image2.jpg"],
-            "AI": ["IP地址和端口号错误", "网关编号SN码错误", "数据点绑定错误"],
-            "student": ["配置错误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -289,9 +287,9 @@
           {
             "groupId": "6",
             "score": 100,
-            "studentFiles": ["/missions/mission5/wrong/image1.jpg", "/missions/mission5/wrong/image2.jpg"],
-            "AI": ["IP地址和端口号错误", "网关编号SN码错误", "数据点绑定错误"],
-            "student": ["配置错误"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -305,9 +303,9 @@
           {
             "groupId": "1",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -316,9 +314,9 @@
           {
             "groupId": "2",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -327,9 +325,9 @@
           {
             "groupId": "3",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -338,9 +336,9 @@
           {
             "groupId": "4",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -349,9 +347,9 @@
           {
             "groupId": "5",
             "score": 75,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -360,9 +358,9 @@
           {
             "groupId": "6",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -376,9 +374,9 @@
           {
             "groupId": "1",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -387,9 +385,9 @@
           {
             "groupId": "2",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -398,9 +396,9 @@
           {
             "groupId": "3",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -409,9 +407,9 @@
           {
             "groupId": "4",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -420,9 +418,9 @@
           {
             "groupId": "5",
             "score": 75,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -431,9 +429,9 @@
           {
             "groupId": "6",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -447,9 +445,9 @@
           {
             "groupId": "1",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -458,9 +456,9 @@
           {
             "groupId": "2",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -469,9 +467,9 @@
           {
             "groupId": "3",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -480,9 +478,9 @@
           {
             "groupId": "4",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -491,9 +489,9 @@
           {
             "groupId": "5",
             "score": 75,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""
@@ -502,9 +500,9 @@
           {
             "groupId": "6",
             "score": 100,
-            "studentFiles": ["/missions/mission2/1.jpg", "/missions/mission2/2.jpg", "/missions/mission2/3.jpg", "/missions/mission2/4.jpg", "/missions/mission2/5.jpg"],
-            "AI": ["温湿度、土壤设备选择存在异常", "网关设备选择存在异常", "性价比因素存在异常"],
-            "student": ["传感器设备重复", "PLC设备不适用"],
+            "studentFiles": ["/missions/mission_3_to_8/1.jpg"],
+            "AI": ["温度数值异常", "超出温湿度设备量程"],
+            "student": ["湿度数据不对"],
             "teacher": {
               "score": 0,
               "text": ""

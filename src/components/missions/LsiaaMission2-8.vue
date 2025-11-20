@@ -2,7 +2,6 @@
   import { missionData } from '@/storages/LsiaaViewData'
   import { ref } from 'vue'
 
-  const showAnswer = ref(false)
   const getType = (score) => {
     if (score >= 90) return 'success'
     if (score >= 70) return 'warning'
@@ -29,14 +28,6 @@
         <div class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-2">
           <n-image-group>
             <n-image class="rounded-lg" object-fit="cover" v-for="image in missionData.mission2To8.studentFiles" :src="image" />
-          </n-image-group>
-        </div>
-      </n-card>
-      <n-button type="success" size="large" secondary v-if="missionData.mission2To8.answerFiles && !showAnswer" @click="showAnswer = true">参考答案</n-button>
-      <n-card title="参考答案" v-if="missionData.mission2To8.answerFiles && showAnswer">
-        <div class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-2">
-          <n-image-group>
-            <n-image class="rounded-lg" object-fit="cover" v-for="image in missionData.mission2To8.answerFiles" :src="image" />
           </n-image-group>
         </div>
       </n-card>
